@@ -7,3 +7,16 @@
   color: teal;
   text-shadow: 2px 2px white;
 }
+
+.form-group {
+  width: 45%;
+  float: left;
+  padding-right: 20px;
+}
+
+.btn
+{
+  margin-top: 50px;
+  float: left;
+  clear: both;
+}
