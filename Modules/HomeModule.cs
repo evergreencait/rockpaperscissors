@@ -12,12 +12,12 @@ namespace RockPaperScissorsCombo
       View["index.cshtml"];
 
 
-      Get["/result"] = _ =>
+      Post["/result"] = _ =>
       {
         // playerOne: storing an input value from Player 1 (ex: "rock", "paper", "scissors")
-        string playerOne = Request.Query["player1-input"];
+        string playerOne = Request.Form["player1-input"];
         // playerTwo: storing an input value from Player 2 (ex: "rock", "paper", "scissors")
-        string playerTwo = Request.Query["player2-input"];
+        string playerTwo = Request.Form["player2-input"];
         // Storing RockPaperScissors (class) from the Object cs file as a variable called 'rockPaperScissorGame'
         RockPaperScissors rockPaperScissorGame = new RockPaperScissors();
         // Storing the returned value (ex: "Draw", "Player 1 won", "Player 2 won") by passing two string parameters into the method called 'RockPaperScissorsResult' as a variable called 'gameResult'
