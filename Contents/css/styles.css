@@ -40,3 +40,15 @@ body {
   background-color: #FFC125;
   color: white;
 }
+
+.result {
+  color: white;
+  font-size: 80px;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 2px 2px gray;
+}
+
+img {
+  margin-top: 30px;
+  width: 500px;
+}
