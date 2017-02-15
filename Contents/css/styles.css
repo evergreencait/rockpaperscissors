@@ -1,0 +1,9 @@
+.jumbotron {
+  background-image: url("https://www.rewardscentral.com.au/img/community/games/rpsImg.jpg");
+  height: 200px;
+  font-size: 80px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  color: teal;
+  text-shadow: 2px 2px white;
+}
