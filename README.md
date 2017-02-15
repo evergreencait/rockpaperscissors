@@ -10,19 +10,9 @@ _This application will allow users to play rock paper scissors against each othe
 
 ## Specifications
 
-#### When Player 1 and Player 2 both choose 'Rock' the program returns the result as 'Draw'.
+#### When Player 1 and Player 2 both choose the same option the program returns the result as 'Draw'.
 * Input: "rock", "rock"
 * Output: "Draw"
-
-#### When Player 1 and Player 2 both choose 'Paper' the program returns the result as 'Draw'.
-* Input: "paper", "paper"
-* Output: "Draw"
-
-#### When Player 1 and Player 2 both choose 'Scissors' the program returns the result as 'Draw'.
-* Input: "scissors", "scissors"
-* Output: "Draw"
-
-
 
 #### When Player 1 chooses 'Rock' and Player 2 chooses 'Scissors' the program returns the result as 'Player 1 won'.
 * Input: "rock", "scissors"
