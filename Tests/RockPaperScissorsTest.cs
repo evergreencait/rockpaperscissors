@@ -19,5 +19,12 @@ namespace RockPaperScissorsCombo
       RockPaperScissors testRockScissors = new RockPaperScissors();
       Assert.Equal("Player 1 won", testRockScissors.RockPaperScissorsResult("rock", "scissors"));
     }
+
+    [Fact]
+    public void RockPaperScissorsTest_ForUserInputRP_P2Won()
+    {
+      RockPaperScissors testRockPaper = new RockPaperScissors();
+      Assert.Equal("Player 2 won", testRockPaper.RockPaperScissorsResult("rock", "paper"));
+    }
   }
 }

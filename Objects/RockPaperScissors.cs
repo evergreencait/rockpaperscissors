@@ -14,7 +14,7 @@ namespace RockPaperScissorsCombo
       {
         return "Player 1 won";
       }
-      return "";
+      else return "Player 2 won";
     }
   }
 }
