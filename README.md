@@ -11,43 +11,43 @@ _This application will allow users to play rock paper scissors against each othe
 ## Specifications
 
 #### When Player 1 and Player 2 both choose 'Rock' the program returns the result as 'Draw'.
-* Input: {"rock", "rock"}
+* Input: "rock", "rock"
 * Output: "Draw"
 
 #### When Player 1 and Player 2 both choose 'Paper' the program returns the result as 'Draw'.
-* Input: {"paper", "paper"}
+* Input: "paper", "paper"
 * Output: "Draw"
 
 #### When Player 1 and Player 2 both choose 'Scissors' the program returns the result as 'Draw'.
-* Input: {"scissors", "scissors"}
+* Input: "scissors", "scissors"
 * Output: "Draw"
 
 
 
 #### When Player 1 chooses 'Rock' and Player 2 chooses 'Scissors' the program returns the result as 'Player 1 won'.
-* Input: {"rock", "scissors"}
+* Input: "rock", "scissors"
 * Output: "Player 1 won"
 
 #### When Player 1 chooses 'Paper' and Player 2 chooses 'Rock' the program returns the result as 'Player 1 won'.
-* Input: {"paper", "rock"}
+* Input: "paper", "rock"
 * Output: "Player 1 won"
 
 #### When Player 1 chooses 'Scissors' and Player 2 chooses 'Paper' the program returns the result as 'Player 1 won'.
-* Input: {"scissors", "paper"}
+* Input: "scissors", "paper"
 * Output: "Player 1 won"
 
 
 
 #### When Player 1 chooses 'Rock' and Player 2 chooses 'Paper' the program returns the result as 'Player 2 won'.
-* Input: {"rock", "paper"}
+* Input: "rock", "paper"
 * Output: "Player 2 won"
 
 #### When Player 1 chooses 'Paper' and Player 2 chooses 'Scissors' the program returns the result as 'Player 2 won'.
-* Input: {"paper", "scissors"}
+* Input: "paper", "scissors"
 * Output: "Player 2 won"
 
 #### When Player 1 chooses 'Scissors' and Player 2 chooses 'Rock' the program returns the result as 'Player 2 won'.
-* Input: {"scissors", "rock"}
+* Input: "scissors", "rock"
 * Output: "Player 2 won"
 
 
