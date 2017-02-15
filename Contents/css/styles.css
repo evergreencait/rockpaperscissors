@@ -1,3 +1,8 @@
+
+body {
+  background-color:#73B1B7;
+}
+
 .jumbotron {
   background-image: url("https://www.rewardscentral.com.au/img/community/games/rpsImg.jpg");
   height: 200px;
@@ -5,13 +10,26 @@
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
   color: teal;
-  text-shadow: 2px 2px white;
+  text-shadow: 3px 3px white;
 }
 
 .form-group {
+  margin-top: 10px;
   width: 45%;
   float: left;
-  padding-right: 20px;
+  padding-right: 30px;
+}
+
+.players {
+  color: white;
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 2px 2px gray;
+}
+
+.form-control
+{
+  margin-top: 10px;
 }
 
 .btn
@@ -19,4 +37,6 @@
   margin-top: 50px;
   float: left;
   clear: both;
+  background-color: #FFC125;
+  color: white;
 }
